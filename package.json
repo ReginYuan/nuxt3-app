@@ -10,12 +10,20 @@
   "devDependencies": {
     "@huntersofbook/naive-ui-nuxt": "^0.7.1",
     "@nuxtjs/tailwindcss": "^6.4.1",
+    "@unocss/preset-attributify": "^0.52.0",
+    "@unocss/preset-icons": "^0.52.0",
+    "@unocss/preset-uno": "^0.52.0",
     "add": "^2.0.6",
     "nuxt": "^3.2.3",
-    "sass": "^1.58.3"
+    "sass": "^1.58.3",
+    "unocss": "^0.52.0"
   },
   "dependencies": {
+    "@css-render/vue3-ssr": "^0.15.12",
+    "@unocss/nuxt": "^0.52.0",
     "gray-matter": "^4.0.3",
+    "naive-ui": "^2.34.4",
+    "vite": "4.0.0",
     "vue": "^3.0.0",
     "webpack": "5.0.0"
   }
