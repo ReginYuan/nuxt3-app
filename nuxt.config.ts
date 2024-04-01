@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+<<<<<<< HEAD
     css: [
         'assets/global.scss'
     ],
@@ -35,3 +36,20 @@ export default defineNuxtConfig({
         '@unocss/nuxt',
     ]
 })
+=======
+  css: ["assets/global.scss"],
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@import "~/assets/_variables.scss";',
+        },
+      },
+    },
+  },
+  modules: ["@nuxtjs/tailwindcss", "@huntersofbook/naive-ui-nuxt"],
+  devServer: {
+    port: 8080,
+  },
+});
+>>>>>>> ae1e9337e271eda2780ae06a1ba9201760cb64d4
